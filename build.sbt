@@ -15,8 +15,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-yarn" % sparkVersion,
-  "org.apache.hadoop" % "hadoop-common" % "3.2.0",
-  "org.apache.hadoop" % "hadoop-aws" % "3.2.0",
-  "com.amazonaws" % "aws-java-sdk-bundle" % "1.11.375",
+  "com.google.cloud.bigdataoss" % "gcs-connector" % "hadoop3-2.2.5",
   "mysql" % "mysql-connector-java" % "8.0.19"
 )
+
+
